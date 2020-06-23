@@ -1,0 +1,73 @@
+body {
+    padding : 0;
+    margin : 0;
+    /*font-family: 'Open Sans', sans-serif;*/
+}
+h1,h2,h3,h4,h5,h6{
+    /*font-family: 'Freckle Face', cursive;*/
+}
+/*Navbar */
+#navbar {
+    background-color: black;
+    margin:0;
+    padding:0;
+    text-align: right;
+}
+#navbar li {
+    display: inline-block ; /* block inline inline-block flex... */
+    padding : 20px; 
+}
+#navbar a{
+    text-decoration: none;
+    color : white;
+    cursor: crosshair;
+}
+/*end of navbar */
+
+/*About Me*/
+#about-me{
+    background-color: #c2c2c2;
+}
+#about-me img{
+    height: 150px;
+    border-radius: 12px;
+}
+
+#about-me h2 {
+    margin-bottom:5px;
+    font-size: 2em;
+}
+#about-me h3 {
+    margin-top: 5px
+}
+/*end of about me*/
+
+/*Skills*/
+#skills{
+    /*padding: 30px;*/
+}
+/*end of skills*/
+
+/*footer*/
+#footer{
+    /*padding: 30px;*/
+}
+/*end of footer*/
+
+
+/*Custom CSS*/
+.padding-page{
+    padding: 30px;
+}
+.btn {
+    padding: 10px 20px; 
+    border-radius: 12px;
+    background-color: darkorange;
+    border : none;
+    color : white;
+    /* top-bottom Y-axis.  left-right X-axis*/
+}
+.text-center{
+    text-align:center;
+}
+
