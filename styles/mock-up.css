@@ -53,6 +53,7 @@ nav  a{
 #section-about {
     padding: 30px 20px;
     text-align: center;
+    min-height :300px;
 }
 #section-about img {
     height :200px;
@@ -60,4 +61,43 @@ nav  a{
 }
 #section-about p {
     text-align: justify;
+}
+
+
+#section-promo {
+    min-height: 300px;
+    display: flex;
+    justify-content : space-around;
+    flex-wrap : wrap;
+}
+.promo-1 {
+    background-image: url(../images/smoked_duck_scallops_with_XO_sauce.jpg);
+}
+.promo-2 {
+    background-image: url(../images/bbq-skews.jpeg);
+}
+.promo-3 {
+    background-image: url(../images/bbq-food.jpeg);
+}
+.promo-4 {
+    background-image: url(../images/bbq-beef.jpg);
+}
+.promo-frame{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    width : 300px;
+    background-color: red;
+    margin : 20px;
+    border-radius: 12px;
+    
+    display : flex;
+    align-items: flex-end;
+}
+.promo {
+    padding : 5px;
+    background-color: rgba(240, 151, 110, 0.7);
+    color:white;
+    width:100%;
 }
