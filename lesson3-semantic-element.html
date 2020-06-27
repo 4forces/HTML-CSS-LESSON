@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!--Google Fonts-->
+    <link href="https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:wght@700&family=Montserrat&display=swap" rel="stylesheet">
+    
+    <!--Custom CSS-->
+    <link rel="stylesheet" href="styles/lesson02.css" type="text/css" />
+    <title>My Resume</title>
+</head>
+<body>
+    <!--Navbar-->
+    <header>
+        <nav>
+            <ul id='navbar'>
+                <li><a href=''>About Me</a></li>
+                <li><a href=''>Education</a></li>
+                <li><a href=''>Work Experience</a></li>
+                <li><a href=''>Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!--end of navbar-->
+    
+    <!--About Me-->
+    <main id='about-me' class='padding-page'>
+        <!--Title-->
+        <div class='text-center'>
+            <h1>MY RESUME</h1>
+        </div>
+        <!--end of main title-->
+        <img src="images/lorex.png"></img>
+        <h2>Ace Ang</h2>
+        <h3>Full Stack Developer</h3>
+        <button class='btn'>Find out more</button>
+
+        
+        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
+        sed diam nonummy nibh euismod tincidunt ut laoreet dolore
+        magna aliquam erat volutpat. Ut wisi enim ad minim veniam,
+        quis nostrud exerci tation ullamcorper suscipit lobortis nisl
+        ut aliquip ex ea commodo consequat. Duis autem vel eum iriure
+        dolor in hendrerit in vulputate velit esse molestie consequat,
+        vel illum dolore eu feugiat nulla facilisis at vero eros et
+        accumsan et iusto odio dignissim qui blandit praesent luptatum
+        zzril delenit augue duis dolore te feugait nulla facilisi.
+        Nam liber tempor cum soluta nobis eleifend option congue
+        nihil imperdiet doming id quod mazim placerat facer possim
+        assum. Typi non habent claritatem insitam; est usus legentis
+        in iis qui facit eorum claritatem. Investigationes
+        demonstraverunt lectores legere me lius quod ii legunt saepius.
+        Claritas est etiam processus dynamicus, qui sequitur mutationem
+        consuetudium lectorum. Mirum est notare quam littera gothica,
+        quam nunc putamus parum claram, anteposuerit litterarum formas
+        humanitatis per seacula quarta decima et quinta decima. Eodem
+        modo typi, qui nunc nobis videntur parum clari, fiant sollemnes
+        in futurum.</p>
+    </main>
+    <!--end of about me-->
+
+    <!--Skills-->
+    <section id='skills'  class='padding-page'>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+        </ul>
+        <button class='btn'>Find out more</button>
+
+    </section>
+    
+    <article>
+        
+       <form method="POST" action="https://script.google.com/macros/s/AKfycbyRMIr72EQpR6ZDsV1zuXQ4Ayhl85hpwy9dlq3pfg/exec"
+                    class='border bg-light rounded py-5 px-3'>            
+            <!--input-->
+            <label for="username" >  Username  </label>
+            <input type='text' name='username' id='username' placeholder='Enter your username' value='User0001'/> <br/>
+            <input type='color' name='color' id='color'/> <br/>
+            <input type='file' name='image' id='image' multiple/> <br/>
+            <input type='email' name='email' id='email' placeholder='Enter your email' required/> <br/>
+            <input type='range' min=‘0’ max=’10’/>
+            <br/>
+            
+            <input type='radio' name='gender' id='male' value='male'/> Male
+            <input type='radio' name='gender' id='female' value='female'/> Female
+            <input type='radio' name='gender' id='other' value='unknown'/> Unknown
+            <br/>
+            <input type='checkbox' name='interest1' id='interest1' value='HTML'/> HTML <br/>
+            <input type='checkbox' name='interest2' id='interest2' value='CSS'/> CSS <br/>
+            <input type='checkbox' name='interest3' id='interest3' value='JS'/> JS <br/>
+
+            <input type='checkbox' name='pdpa' id='pdpa' value='agree'/> I hereby agree to be contacted <br/>
+            <br/>
+            
+            <textarea 
+                name='little-interest' 
+                id="little-interest" 
+                rows="3" 
+                cols='70' 
+                >
+                
+            </textarea><br/>
+            
+            <select name='skill' id='skill'>
+                <option >HTML</option>
+                <option value='css' >CSS</option>
+                <option value='javascript'>JavaScript</option>
+                <option value='python' >Python</option>
+            </select>
+            
+            <!--submit button-->
+            <input class='btn' type='submit' value='Send enquiry'/>
+            <button class='btn'>Find out more</button>
+
+            
+            
+        </form>
+     
+    </article> 
+        
+        
+        
+    </footer>
+        <!--Footer-->
+        <div id='footer' class='padding-page'>
+            <small>-- @Copyright Ace Resume -- </small>
+        </div>
+    </footer>
+    <!--end of footer-->
+</body>
+</html>

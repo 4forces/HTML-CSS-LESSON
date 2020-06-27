@@ -1,0 +1,36 @@
+.p-2 {
+
+}
+#reservation form {
+    border : 1px solid orange;
+    background-color: rgb(255, 213, 140);
+    text-align: center;
+    border-radius: 10px;
+}
+#reservation input {
+    padding : 5px 10px;
+    border-radius: 4px;
+}
+#reservation select {
+    padding : 5px 40px;
+    border-radius: 4px;
+}
+
+#reservation div {
+    /*border: 1px black solid;*/
+    padding: 5px;
+}
+#reservation button {
+    background-color: darkorange;
+    color : white;
+    border : none;
+    border-radius: 12px;
+    padding: 7px 20px;
+}
+#reservation form div:nth-child(7) {
+    padding: 50px
+}
+
+#reservation textarea {
+    resize: none;
+}

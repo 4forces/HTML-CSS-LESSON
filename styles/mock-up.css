@@ -1,0 +1,63 @@
+body{
+    margin : 0;
+    padding: 0;
+}
+/*Navbar */
+nav ul {
+    background-color: black;
+    margin:0;
+    padding:0;
+    text-align: right;
+}
+nav li {
+    display: inline-block ; /* block inline inline-block flex... */
+    padding : 20px; 
+}
+nav  a{
+    text-decoration: none;
+    color : white;
+    cursor: crosshair;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+/*end of navbar */
+#hero-image {
+    height: 600px;
+    background-image: url(../images/seafood-banner.jpg);
+    background-repeat: no-repeat;
+    background-position: 60% 0%;
+    background-size: cover;
+    position: relative;
+
+    display : flex;
+    justify-content: space-around;
+    align-items:flex-end;
+}
+#callout {
+    width :650px;
+    height: 150px;
+    background-color: rgba(240, 151, 110, 0.7);
+    padding-top : 10px;
+    padding-left: 40px;
+    padding-right: 5px;
+    color : white;
+    
+    margin-bottom: 20px; 
+}
+#callout h1 {
+    font-size: 280%;
+    margin-bottom: 5px;
+}
+
+/*section about*/
+#section-about {
+    padding: 30px 20px;
+    text-align: center;
+}
+#section-about img {
+    height :200px;
+    float : left;
+}
+#section-about p {
+    text-align: justify;
+}

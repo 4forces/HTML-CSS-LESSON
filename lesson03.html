@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="styles/lesson03.css" type="text/css" />
+    
+    <title>Document</title>
+</head>
+<body>
+    <div id='reservation'>
+       <form method="POST" action="https://script.google.com/macros/s/AKfycbyRMIr72EQpR6ZDsV1zuXQ4Ayhl85hpwy9dlq3pfg/exec"
+                    class='border bg-light rounded py-5 px-3'>            
+            <h2>MAKE YOUR RESERVATION HERE</h2>
+            
+            <div class='p-2'>
+                <label for="name" ><b>Name : </b></label>
+                <input type='text' name='name' id='name' placeholder="Please enter your name"/>
+            </div>
+            
+            <div class='p-2'>
+                <input type='radio' name='diners' value='2'/> 2 diners
+                <input type='radio' name='diners' value='4'/> 4 diners
+                <input type='radio' name='diners' value='6'/> 6 diners
+            </div>
+        
+            <div class='p-2'>
+                <label for="contact"><b>Contact Number : </b></label>
+                <input type='text' name='contact' id='contact' placeholder="91234567"/>
+            </div>
+            
+            <div class='p-2'>
+                <select name='time'>
+                    <option > 7pm </option>
+                    <option value='Merc' > Mercedes Benz </option>
+                </select>
+            </div>
+            
+            <div class='p-2'>
+                <textarea name='request' rows='5' cols='50'>Any special request or occasion ?</textarea>
+            </div>
+            
+            <div class='p-2'>
+                <button>Make Reservation</button>
+            </div>
+            
+        </form>
+    </div>
+
+</body>
+</html>

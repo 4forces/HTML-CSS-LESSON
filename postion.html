@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        .outer-box{
+            height:500px;
+            width:700px;
+            background : lightgrey;
+            display : flex;
+            justify-content: space-around space-between;
+            /*align-items: center;*/
+            flex-direction:column;
+            align-content:flex-end;
+        }
+        .boxa{
+            height:100px;
+            width:100px;
+
+
+        }
+        .boxb{
+            height:100px;
+            width:100px;
+            /*order: 1;*/
+            /*align-self :flex-end;*/
+        }
+        .boxc{
+            height:100px;
+            width:100px;
+
+        }        
+    </style>
+</head>
+<body>
+    <div class="outer-box">
+        <div class="boxa" style='background:red'>A</div>
+        <div class="boxb" style='background:yellow'>B</div>
+        <div class="boxc" style='background:green'>C</div>
+    </div>
+</body>
+</html>
