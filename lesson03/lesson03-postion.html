@@ -10,23 +10,24 @@
             height:500px;
             width:700px;
             background : lightgrey;
-            display : flex;
-            justify-content: space-around space-between;
-            /*align-items: center;*/
-            flex-direction:column;
-            align-content:flex-end;
+            position : relative; 
+            /*  made a absolute to position reference to the grey box
+                gave up the space previously occupied*/
         }
         .boxa{
             height:100px;
             width:100px;
-
-
+            position : absolute; 
+            right:10%; /* 10% shift reference to right edge of grey box */
+            
         }
         .boxb{
             height:100px;
             width:100px;
-            /*order: 1;*/
-            /*align-self :flex-end;*/
+            position : relative; 
+            /*  relative shift down 70% reference to grey both but 
+                continue to block the space previously occupied*/
+            top: 70%;
         }
         .boxc{
             height:100px;
