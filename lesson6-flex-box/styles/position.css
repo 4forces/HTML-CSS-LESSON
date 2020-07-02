@@ -1,0 +1,78 @@
+body {
+    margin : 0;
+    padding:0;
+    height: 300vh;
+}
+header {
+    width: 100%;
+    position: absolute;
+    z-index: 2;
+}
+nav ul {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    
+}
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 20px 10px;
+}
+nav ul li a {
+    text-decoration: none;
+    letter-spacing: 2px;
+    color: #FFFFFF;
+    line-height: 1.5;
+}
+nav ul li a:hover {
+    border-bottom-color: #FFFFFF;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+}
+.home {
+    font-size: 180%;
+    border-bottom-color: #FFFFFF;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+}
+
+#hero-outer{
+    height: 100vh;
+    width: 100%;
+}
+#hero-image {
+    height: 100%;
+    background: url(../images/dog-man-best-friend.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;  
+}
+.overlay{
+    height: 100%;
+    background-color: rgba(50,50,50,0.5);
+    position: relative;
+}
+#callout {
+    font-size: 150%;
+    width:300px;
+    padding: 5px;
+    color:white;
+    background-color: rgba(72, 229, 232, 0.7);
+    text-align: center;
+    
+    position: absolute;
+    top:50%;
+    /*left:60%;*/
+    /*top: 80%;*/
+    left:50%;
+    transform: translate(-50%,-50%);
+    /*transform: translate(100%,0);*/
+}
+
+@media only screen and (min-width: 768px){
+    nav ul li a {
+        color :#444444;
+        letter-spacing: 4px;
+    }
+}

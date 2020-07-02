@@ -1,0 +1,81 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 300vh;
+}
+
+header{
+    position: fixed;
+    width: 100%;
+}
+nav{
+    display: flex;
+    justify-content:flex-end;
+    background-color: #FFFFFF;
+}
+nav ul {
+    display: none;
+    margin: 0;
+    padding: 0;
+    text-align: right;
+    margin-right: 20px;
+}
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 20px 10px;
+}
+nav ul li a{
+    text-decoration: none;
+    font-size: 110%;
+    letter-spacing: 4px;
+    color: #777777;
+    line-height: 2;
+}
+.collapse {
+    padding: 10px;
+    font-size: 2.2em;
+}
+.active {
+    font-size: 140%;
+    color: #444444;
+    border-color: #444444;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+}
+
+#hero-outer{
+    height: 600px;
+    width: 100%;
+}
+#hero-image {
+    background-image: url(../images/skinny-dog-adopt.jpg);
+    background-size: cover;
+    background-position: center;
+    height:100%;
+}
+@media only screen and (min-width :  768px){
+    body{
+        background-color: teal;
+    }
+    nav ul {
+        display: block;
+    }
+    .collapse{
+        display: none;
+    }
+    
+    #hero-image {
+        background-position: 50% 0%;
+    }
+}
+
+@media only screen and (min-width :  900px){
+    
+}
+
+@media only screen and (min-width :  1200){
+    body{
+        background-color: teal;
+    }
+}

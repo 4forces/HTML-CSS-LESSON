@@ -1,0 +1,94 @@
+body {
+    margin:0;
+    padding: 0;
+}
+#hero-image {
+    height: 100vh;
+    width:100%;
+    background: url(../images/dog-man-best-friend.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;  
+}
+.overlay{
+    height: 100%;
+    width:100%;
+    background-color: rgba(50,50,50,0.5);
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 20px 10px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: #FFFFFF;
+    /*background-color: black;*/
+    letter-spacing: 2px;
+    line-height: 5.5;
+}
+nav ul li a:hover{
+    border-bottom-color: #FFFFFF;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;    
+}
+
+header {
+    position:absolute;
+    width: 100%;
+    /*border:1px solid black;*/
+    
+}
+.home {
+    font-size: 180%;
+    border-bottom-color: #FFFFFF;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+}
+
+
+
+#section-dog-list{
+    padding: 20px;
+}
+#listing-frame{
+    display: flex;        
+    flex-wrap:wrap;
+}
+.listing {
+    height: 300px;
+    max-width : 300px;
+    background-image:url(../images/dog.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 20% 0%;
+    display: flex;
+    align-items:flex-end;
+    margin : 25px auto;
+}
+.details {
+    background-color: rgba(20,20,20,0.5);
+    color:white;
+    padding : 6px;
+}
+
+@media only screen and (min-width: 768px) {
+    body {
+        background-color: teal;
+    }
+    
+}
+@media only screen and (min-width: 900px) {
+    body {
+        background-color: lightgrey;
+    }    
+}
+@media only screen and (min-width: 1200px) {
+    
+}
